@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 //url Front-end
-app.use(cors({credentials: true, origin: "https://masterbuild-frontend-d167bd4d5867.herokuapp.com/"}));
+app.use(cors());
 
 //imagens Static
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
