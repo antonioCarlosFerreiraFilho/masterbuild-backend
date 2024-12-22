@@ -3,9 +3,9 @@ const router = express();
 
 //Users
 router.use("/api/users", require("./UserRoutes"));
-//Contact 
+//Contact
 router.use("/api/contact", require("./ContactRoutes"));
-//Projects 
+//Projects
 router.use("/api/projects", require("./ProjectRoutes"));
 //Vacancies
 router.use("/api/vacancie", require("./VacancieRoutes"));
